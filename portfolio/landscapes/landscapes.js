@@ -157,16 +157,7 @@ function regainWorld() {
   intervalWorld = setInterval(avantiWorld, 6000);
 }
 
-/*PROVA ZOOM
-function zoom(elem){
-   var a = document.getElementsByClassName('class-anteprime');
-   for (i = 0; i < a.length; i++) {
-      a[i].classList.remove('active')
-  }
-  elem.classList.add('active');
-}*/
-
-/*EFFWTTO SWIPE WORLD*/
+/*EFFETTO SWIPE WORLD*/
 document
   .getElementById("imageWorld")
   .addEventListener("touchstart", handleTouchStartWorld);
@@ -237,12 +228,3 @@ function handleTouchEndItaly(evt) {
     regainItaly();
   }
 }
-
-/*FUNZIONE AGG. CLASSE X IMG VERTICALI
-function imgVerticale(imgIndex) {
-  if (imgIndex == 1 || imgIndex == 4 || imgIndex == 5 || imgIndex == 3) {
-    document.getElementById("image").classList.add("imgVertical");
-  } else {
-    document.getElementById("image").classList.remove("imgVertical");
-  }
-}*/
