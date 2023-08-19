@@ -82,14 +82,13 @@ function handleTouchEnd(evt) {
   let xTouchEnd = evt.changedTouches[0].clientX;
 
   let xDiff = xTouchStart - xTouchEnd;
-  console.log("xDiff", xDiff);
 
   if (xDiff > 30) {
-    indietroArrow();
+    avantiArrow();
     clearInterval(myInterval);
     regain();
   } else if (xDiff < -30) {
-    avantiArrow();
+    indietroArrow();
     clearInterval(myInterval);
     regain();
   }

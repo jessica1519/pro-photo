@@ -183,11 +183,11 @@ function handleTouchEndWorld(evt) {
   console.log("xDiff", xDiff);
 
   if (xDiff > 30) {
-    indietroWorld();
+    avantiWorld();
     clearInterval(intervalWorld);
     regainWorld();
   } else if (xDiff < -30) {
-    avantiWorld();
+    indietroWorld();
     clearInterval(intervalWorld);
     regainWorld();
   }
@@ -219,11 +219,11 @@ function handleTouchEndItaly(evt) {
   console.log("xDiff", xDiff);
 
   if (xDiff > 30) {
-    indietroItaly();
+    avantiItaly();
     clearInterval(intervalItaly);
     regainItaly();
   } else if (xDiff < -30) {
-    avantiItaly();
+    indietroItaly();
     clearInterval(intervalItaly);
     regainItaly();
   }
