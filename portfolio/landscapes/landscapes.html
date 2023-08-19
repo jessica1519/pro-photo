@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pro Photo - Paesaggi</title>
+    <link rel="stylesheet" href="landscapes.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="icon" type="image/x-icon" href="../../favicon.png" />
+  </head>
+  <body>
+    <!--barra iniziale search/social-->
+
+    <div class="header">
+      <div class="logo">
+        <a href="../../home/home.html"
+          ><img class="imgLogo" src="../../logoSito.png"
+        /></a>
+      </div>
+      <div class="mobileMenuContainer">
+        <button class="mobileMenuButton" onclick="button('menu')">
+          Menu ☰
+        </button>
+        <div class="menu" id="menu">
+          <div class="menuItem">
+            <a href="../../home/home.html ">Home</a>
+          </div>
+          <div class="menuItem">
+            <a href="../../portfolio/homePortfolio/portfolio.html">Portfolio</a>
+            <button onclick="button('portfolioItem')" id="button">☰</button>
+            <div class="menuItem" id="portfolioItem">
+              <a href="../landscapes/landscapes.html">• Paesaggi</a>
+              <br />
+              <a href="../blackWhite/blackWhite.html">• Bianco & Nero</a>
+              <br />
+              <a href="../animals/animals.html">• Animali</a>
+              <br />
+              <a href="../drone/drone.html">• Foto Drone</a>
+              <br />
+              <a href="../iLuoghiDellAbbandono/luoghiAbbandono.html"
+                >• I luoghi dell'Abbandono</a
+              >
+            </div>
+          </div>
+          <div class="menuItem">
+            <a href="../../about/about.html">About</a>
+          </div>
+          <div class="menuItem">
+            <a href="../../contacts/contacts.html">Contatti</a>
+          </div>
+        </div>
+      </div>
+      <div class="socialBar">
+        <a href="#" class="facebook"
+          ><i class="fa-brands fa-facebook socialImg"></i
+        ></a>
+        <a href="#" class="instagram"
+          ><i class="fa-brands fa-instagram socialImg"></i
+        ></a>
+        <a href="#" class="mail"
+          ><i class="fa-regular fa-envelope socialImg"></i
+        ></a>
+      </div>
+    </div>
+    <!--ITALY GALLERY-->
+    <div class="landscapesGallery" id="landscapesItaly">
+      <input
+        class="arrow back"
+        type="submit"
+        value="‹"
+        onclick="indietroItaly()"
+      />
+      <div class="titleGallery"><h2>ITALY</h2></div>
+      <img
+        id="image"
+        class="image"
+        src="../landscapes/photoLandscape/italy/1.JPG"
+        alt="Example image"
+      />
+      <input
+        class="arrow forward"
+        type="submit"
+        value="›"
+        onclick="avantiItaly()"
+      />
+      <a href="#landscapesId" class="buttonOpen"
+        ><button class="buttonOpen" onclick="button('landscapesId')">
+          GUARDA TUTTE LE FOTO
+        </button></a
+      >
+    </div>
+
+    <div id="landscapesId">
+      <div class="landscapesItem">
+        <div class="class-anteprime">
+          <a href="#landscapesItaly"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/italy/1.JPG"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesItaly"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/italy/2.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesItaly"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/italy/3.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesItaly"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/italy/4.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesItaly"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/italy/5.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesItaly"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/italy/6.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesItaly"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/italy/7.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesItaly"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/italy/8.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesItaly"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/italy/9.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesItaly"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/italy/10.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesItaly"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/italy/11.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesItaly"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/italy/12.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesItaly"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/italy/13.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesItaly"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/italy/14.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesItaly"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/italy/15.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesItaly"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/italy/16.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesItaly"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/italy/17.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesItaly"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/italy/18.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesItaly"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/italy/19.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesItaly"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/italy/20.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesItaly"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/italy/21.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesItaly"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/italy/22.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesItaly"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/italy/23.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesItaly"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/italy/24.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesItaly"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/italy/25.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesItaly"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/italy/26.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesItaly"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/italy/27.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesItaly"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/italy/28.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesItaly"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/italy/29.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesItaly"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/italy/30.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesItaly"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/italy/31.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesItaly"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/italy/32.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesItaly"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/italy/33.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesItaly"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/italy/34.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesItaly"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/italy/35.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesItaly"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/italy/36.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesItaly"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/italy/37.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesItaly"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/italy/38.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesItaly"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/italy/39.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesItaly"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/italy/40.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesItaly"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/italy/41.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesItaly"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/italy/42.jpg"
+          /></a>
+        </div>
+      </div>
+      <a href="#landscapesItaly" class="buttonOpen"
+        ><button class="buttonOpen" onclick="button('landscapesId')">
+          CHIUDI TUTTE LE FOTO
+        </button></a
+      >
+    </div>
+
+    <!--WORLD GALLERY-->
+    <div class="landscapesGallery" id="landscapesWorld">
+      <input
+        class="arrow back"
+        type="submit"
+        value="‹"
+        onclick="indietroWorld()"
+      />
+      <div class="titleGallery"><h2>WORLD</h2></div>
+      <img
+        id="imageWorld"
+        src="../landscapes/photoLandscape/world/1.jpg"
+        alt="Example image"
+      />
+      <input
+        class="arrow forward"
+        type="submit"
+        value="›"
+        onclick="avantiWorld()"
+      />
+      <a href="#worldId" class="buttonOpen"
+        ><button class="buttonOpen" onclick="button('worldId')">
+          GUARDA TUTTE LE FOTO
+        </button></a
+      >
+    </div>
+
+    <div id="worldId">
+      <div class="worldClass">
+        <div class="class-anteprime">
+          <a href="#landscapesWorld"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/world/1.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesWorld"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/world/2.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesWorld"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/world/3.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesWorld"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/world/4.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesWorld"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/world/5.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesWorld"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/world/6.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesWorld"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/world/7.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesWorld"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/world/8.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesWorld"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/world/9.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesWorld"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/world/10.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesWorld"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/world/11.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesWorld"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/world/12.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesWorld"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/world/13.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesWorld"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/world/14.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesWorld"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/world/15.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesWorld"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/world/16.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesWorld"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/world/17.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesWorld"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/world/18.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesWorld"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/world/19.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesWorld"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/world/20.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesWorld"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/world/21.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesWorld"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/world/22.jpg"
+          /></a>
+        </div>
+        <div class="class-anteprime">
+          <a href="#landscapesWorld"
+            ><img
+              class="anteprime-img"
+              src="../landscapes/photoLandscape/world/23.jpg"
+          /></a>
+        </div>
+      </div>
+      <a href="#landscapesWorld" class="buttonOpen"
+        ><button class="buttonOpen" onclick="button('worldId')">
+          CHIUDI TUTTE LE FOTO
+        </button></a
+      >
+    </div>
+
+    <!--FOOTER-->
+    <div class="footer">
+      <div class="footerparagrafi">
+        <p>
+          Your Company Name | Via Roma, 24 - 55045 Pietrasana (Lucca) ITALIA |
+          C.F. ABC000000000 | P.Iva 000000000
+        </p>
+        <p>
+          <a class="email" href="../../contacts/contacts.html">
+            E-mail:tiziocaio@gmail.com</a
+          >
+        </p>
+        <p>
+          <a class="telefono" href="../../contacts/contacts.html"
+            >Telefono: 000000000000 / +39 3333333333333</a
+          >
+        </p>
+        <p><a href="#" class="privacy"> Privacy</a></p>
+        <p><a href="#" class="cookie">Cookie Policy</a></p>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script
+      language="JavaScript"
+      type="text/javascript"
+      src="./landscapes.js"
+    ></script>
+  </body>
+</html>

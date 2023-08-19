@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pro Photo - Home</title>
+    <link rel="stylesheet" href="home.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="icon" type="image/x-icon" href="../favicon.png" />
+  </head>
+  <body>
+    <!--barra iniziale search/social-->
+    <div class="gridContainer">
+      <div class="header">
+        <div class="logo">
+          <a href="../home/home.html">
+            <img class="imgLogo" src="../logoSito.png"
+          /></a>
+        </div>
+        <div class="mobileMenuContainer">
+          <button class="mobileMenuButton" onclick="button('menu')">
+            Menu ☰
+          </button>
+          <div class="menu" id="menu">
+            <div class="menuItem">
+              <a href="../home/home.html">Home</a>
+            </div>
+            <div class="menuItem">
+              <a href="../portfolio/homePortfolio/portfolio.html">Portfolio</a>
+              <button onclick="button('portfolioItem')" id="button">☰</button>
+              <div class="menuItem" id="portfolioItem">
+                <a href="../portfolio/landscapes/landscapes.html">• Paesaggi</a>
+                <br />
+                <a href="../portfolio/blackWhite/blackWhite.html"
+                  >• Bianco & Nero</a
+                >
+                <br />
+                <a href="../portfolio/animals/animals.html">• Animali</a>
+                <br />
+                <a href="../portfolio/drone/drone.html">• Foto Drone</a>
+                <br />
+                <a href="../portfolio/iLuoghiDellAbbandono/luoghiAbbandono.html"
+                  >• I luoghi dell'Abbandono</a
+                >
+              </div>
+            </div>
+            <div class="menuItem">
+              <a href="../about/about.html">About</a>
+            </div>
+            <div class="menuItem">
+              <a href="../contacts/contacts.html">Contatti</a>
+            </div>
+          </div>
+        </div>
+        <div class="socialBar">
+          <a href="#" class="facebook"
+            ><i class="fa-brands fa-facebook socialImg"></i
+          ></a>
+          <a href="#" class="instagram"
+            ><i class="fa-brands fa-instagram socialImg"></i
+          ></a>
+          <a href="#" class="mail"
+            ><i class="fa-regular fa-envelope socialImg"></i
+          ></a>
+        </div>
+      </div>
+      <div class="homeGallery">
+        <input
+          class="arrow back"
+          type="submit"
+          value="‹"
+          onclick="indietroArrow()"
+        />
+        <img
+          id="image"
+          class="image"
+          src="../home/homePhoto/1.JPG"
+          alt="Example image"
+        />
+        <input
+          class="arrow forward"
+          type="submit"
+          value="›"
+          onclick="avantiArrow()"
+        />
+      </div>
+      <!--FOOTER-->
+      <div class="footer">
+        <div class="footerparagrafi">
+          <p>
+            Your Company Name | Via Roma, 24 - 55045 Pietrasana (Lucca) ITALIA |
+            C.F. ABC000000000 | P.Iva 000000000
+          </p>
+          <p>
+            <a class="email" href="../../contacts/contacts.html">
+              E-mail:tiziocaio@gmail.com</a
+            >
+          </p>
+          <p>
+            <a class="telefono" href="../../contacts/contacts.html"
+              >Telefono: 000000000000 / +39 3333333333333</a
+            >
+          </p>
+          <p><a href="#" class="privacy"> Privacy</a></p>
+          <p><a href="#" class="cookie">Cookie Policy</a></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script type="text/javascript" src="./home.js"></script>
+  </body>
+</html>

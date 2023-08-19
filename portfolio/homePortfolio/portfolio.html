@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pro Photo - Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="icon" type="image/x-icon" href="../../favicon.png" />
+  </head>
+  <body>
+    <!--HEADER-->
+    <div class="header">
+      <div class="logo">
+        <a href="../../home/home.html">
+          <img class="imgLogo" src="../../logoSito.png"
+        /></a>
+      </div>
+      <div class="mobileMenuContainer">
+        <button class="mobileMenuButton" onclick="button('menu')">
+          Menu ☰
+        </button>
+        <div class="menu" id="menu">
+          <div class="menuItem">
+            <a href="../../home/home.html">Home</a>
+          </div>
+          <div class="menuItem">
+            <a href="../homePortfolio/portfolio.html">Portfolio</a>
+            <button onclick="button('portfolioItem')" id="button">☰</button>
+            <div class="menuItem" id="portfolioItem">
+              <a href="../landscapes/landscapes.html">• Paesaggi</a>
+              <br />
+              <a href="../blackWhite/blackWhite.html">• Bianco & Nero</a>
+              <br />
+              <a href="../animals/animals.html">• Animali</a>
+              <br />
+              <a href="../drone/drone.html">• Foto Drone</a>
+              <br />
+              <a href="../iLuoghiDellAbbandono/luoghiAbbandono.html"
+                >• I luoghi dell'Abbandono</a
+              >
+            </div>
+          </div>
+          <div class="menuItem">
+            <a href="../../about/about.html">About</a>
+          </div>
+          <div class="menuItem">
+            <a href="../../contacts/contacts.html">Contatti</a>
+          </div>
+        </div>
+      </div>
+      <div class="socialBar">
+        <a href="#" class="facebook"
+          ><i class="fa-brands fa-facebook socialImg"></i
+        ></a>
+        <a href="#" class="instagram"
+          ><i class="fa-brands fa-instagram socialImg"></i
+        ></a>
+        <a href="#" class="mail"
+          ><i class="fa-regular fa-envelope socialImg"></i
+        ></a>
+      </div>
+    </div>
+
+    <!--GRID- CORPO DELLA PAGINA-->
+    <div id="grid-portfolio">
+      <div class="grid-landscapes">
+        <img class="grid-img" src="../homePortfolio/photoPortfolio/1.JPG" />
+      </div>
+      <div class="grid-text">
+        <a
+          class="portfolio-a"
+          href="../landscapes/landscapes.html"
+          class="hover-underline-animation"
+          >PAESAGGI
+        </a>
+        <h1>
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected
+          humour, or randomised words which don't look even slightly believable.
+          If you are going to use a passage of Lorem Ipsum, you need to be sure
+          there isn't anything embarrassing hidden in the middle of text. All
+          the Lorem Ipsum generators on the Internet tend to repeat predefined
+          chunks as necessary, making this the first true generator on the
+          Internet.
+        </h1>
+      </div>
+      <div class="grid-black-and-white">
+        <img class="grid-img" src="../homePortfolio/photoPortfolio/4.JPG" />
+      </div>
+      <div class="grid-text">
+        <a class="portfolio-a" href="../blackWhite/blackWhite.html"
+          >BIANCO & NERO</a
+        >
+        <h1>
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected
+          humour, or randomised words which don't look even slightly believable.
+          If you are going to use a passage of Lorem Ipsum, you need to be sure
+          there isn't anything embarrassing hidden in the middle of text. All
+          the Lorem Ipsum generators on the Internet tend to repeat predefined
+          chunks as necessary, making this the first true generator on the
+          Internet.
+        </h1>
+      </div>
+      <div class="grid-animals">
+        <img class="grid-img" src="../homePortfolio/photoPortfolio/2.jpg" />
+      </div>
+      <div class="grid-text">
+        <a href="../animals/animals.html" class="portfolio-a">ANIMALI</a>
+        <h1>
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected
+          humour, or randomised words which don't look even slightly believable.
+          If you are going to use a passage of Lorem Ipsum, you need to be sure
+          there isn't anything embarrassing hidden in the middle of text. All
+          the Lorem Ipsum generators on the Internet tend to repeat predefined
+          chunks as necessary, making this the first true generator on the
+          Internet.
+        </h1>
+      </div>
+      <div class="grid-drone">
+        <img class="grid-img" src="../homePortfolio/photoPortfolio/3.jpg" />
+      </div>
+      <div class="grid-text">
+        <a href="../drone/drone.html" class="portfolio-a">FOTO DRONE</a>
+        <h1>
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected
+          humour, or randomised words which don't look even slightly believable.
+          If you are going to use a passage of Lorem Ipsum, you need to be sure
+          there isn't anything embarrassing hidden in the middle of text. All
+          the Lorem Ipsum generators on the Internet tend to repeat predefined
+          chunks as necessary, making this the first true generator on the
+          Internet.
+        </h1>
+      </div>
+      <div class="grid-luoghiDellAbbandono">
+        <img class="grid-img" src="../homePortfolio/photoPortfolio/5.JPG" />
+      </div>
+      <div class="grid-text">
+        <a
+          href="../iLuoghiDellAbbandono/luoghiAbbandono.html"
+          class="portfolio-a"
+          >I LUOGHI DELL'ABBANDONO</a
+        >
+        <h1>
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected
+          humour, or randomised words which don't look even slightly believable.
+          If you are going to use a passage of Lorem Ipsum, you need to be sure
+          there isn't anything embarrassing hidden in the middle of text. All
+          the Lorem Ipsum generators on the Internet tend to repeat predefined
+          chunks as necessary, making this the first true generator on the
+          Internet.
+        </h1>
+      </div>
+    </div>
+
+    <!--FOOTER-->
+    <div class="footer">
+      <div class="footerparagrafi">
+        <p>
+          Your Company Name | Via Roma, 24 - 55045 Pietrasana (Lucca) ITALIA |
+          C.F. ABC000000000 | P.Iva 000000000
+        </p>
+        <p>
+          <a class="email" href="../../contacts/contacts.html">
+            E-mail:tiziocaio@gmail.com</a
+          >
+        </p>
+        <p>
+          <a class="telefono" href="../../contacts/contacts.html"
+            >Telefono: 000000000000 / +39 3333333333333</a
+          >
+        </p>
+        <p><a href="#" class="privacy"> Privacy</a></p>
+        <p><a href="#" class="cookie">Cookie Policy</a></p>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script type="text/javascript" src="./portfolio.js"></script>
+  </body>
+</html>

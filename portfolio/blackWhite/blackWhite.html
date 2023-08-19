@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pro Photo - Bianco & Nero</title>
+    <link rel="stylesheet" href="blackWhite.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="icon" type="image/x-icon" href="../../favicon.png" />
+</head>
+<body>
+    <!--barra iniziale search/social-->
+    <div class="header">
+      <div class="logo"> <a href="../../home/home.html">
+            <img class="imgLogo" src="../../logoSito.png"></a>
+               </div>
+               <div class="mobileMenuContainer">
+                <button class="mobileMenuButton" onclick="button('menu')">
+                  Menu ☰
+                </button>
+        <div class="menu" id="menu">
+            <div class="menuItem">
+                <a href="../../home/home.html " >Home</a>
+            </div>
+            <div class="menuItem">
+                <a href="../../portfolio/homePortfolio/portfolio.html">Portfolio</a>
+                  <button onclick="button('portfolioItem')" id="button"> ☰</button>
+            <div class="menuItem" id="portfolioItem">
+                <a href="../landscapes/landscapes.html">• Paesaggi</a>
+                <br/>
+                <a href="../blackWhite/blackWhite.html">• Bianco & Nero</a>
+                <br/>
+                <a href="../animals/animals.html">• Animali</a> 
+                <br/>
+                <a href="../drone/drone.html">• Foto Drone</a>
+                <br/>
+                <a href="../iLuoghiDellAbbandono/luoghiAbbandono.html">• I luoghi dell'Abbandono</a>
+            </div>
+            </div>
+            <div class="menuItem">
+                <a href="../../about/about.html">About</a>
+            </div>
+            <div class="menuItem">
+                <a href="../../contacts/contacts.html">Contatti</a>
+         </div>
+            </div>
+            </div>
+    <div class=socialBar>
+         <a href="#" class="facebook"><i class="fa-brands fa-facebook socialImg"></i></a>
+         <a href="#"class="instagram"><i class="fa-brands fa-instagram socialImg"></i></a>
+         <a href="#"class="mail"><i class="fa-regular fa-envelope socialImg"></i></a>
+            </div>
+    </div>
+  
+            
+    <!--BLACK&WHITE GALLERY-->
+    <div class="bwGallery" id="bwGalleryId">
+        <input class="arrow back" type="submit" value="‹" onclick="indietroArrow()">    
+        <div class="titleGallery" ><h2>BIANCO & NERO</h2></div>        
+        <img id="image" class="image"  src="../blackWhite/photoBlackWhite/1.jpg" alt="Example image">
+        <input class="arrow forward" type="submit" value="›" onclick="avantiArrow()">
+    </div>
+           
+    <a href="#bwId" class="buttonOpen"
+    ><button class = "buttonOpen" onclick="button('bwId')">GUARDA TUTTE LE FOTO </button></a>
+            <div id="bwId">
+            <div class="bwClass">
+            <div class="class-anteprime"><a href="#bwGalleryId"><img class="anteprime-img"  src="../blackWhite/photoBlackWhite/1.jpg" ></a></div>
+                <div class="class-anteprime"><a href="#bwGalleryId"><img class="anteprime-img" src="../blackWhite/photoBlackWhite/2.jpg" ></a></div>
+                <div class="class-anteprime"><a href="#bwGalleryId"><img class="anteprime-img" src="../blackWhite/photoBlackWhite/3.jpg" ></a></div>
+                <div class="class-anteprime"><a href="#bwGalleryId"><img class="anteprime-img" src="../blackWhite/photoBlackWhite/4.jpg" ></a></div>
+                <div class="class-anteprime"><a href="#bwGalleryId"><img class="anteprime-img" src="../blackWhite/photoBlackWhite/5.jpg" ></a></div>
+                <div class="class-anteprime"><a href="#bwGalleryId"><img class="anteprime-img" src="../blackWhite/photoBlackWhite/6.jpg"></a></div>
+                <div class="class-anteprime"><a href="#bwGalleryId"><img class="anteprime-img" src="../blackWhite/photoBlackWhite/7.jpg"></a></div>
+                <div class="class-anteprime"><a href="#bwGalleryId"><img class="anteprime-img" src="../blackWhite/photoBlackWhite/8.jpg"></a></div>
+                <div class="class-anteprime"><a href="#bwGalleryId"><img class="anteprime-img" src="../blackWhite/photoBlackWhite/9.jpg"></a></div>
+                <div class="class-anteprime"><a href="#bwGalleryId"><img class="anteprime-img" src="../blackWhite/photoBlackWhite/10.jpg"></a></div>
+                <div class="class-anteprime"><a href="#bwGalleryId"><img class="anteprime-img" src="../blackWhite/photoBlackWhite/11.jpg"></a></div>
+                <div class="class-anteprime"><a href="#bwGalleryId"><img class="anteprime-img" src="../blackWhite/photoBlackWhite/12.jpg"></a></div>
+                <div class="class-anteprime"><a href="#bwGalleryId"><img class="anteprime-img" src="../blackWhite/photoBlackWhite/13.jpg"></a></div>
+                <div class="class-anteprime"><a href="#bwGalleryId"><img class="anteprime-img" src="../blackWhite/photoBlackWhite/14.jpg"></a></div>
+                <div class="class-anteprime"><a href="#bwGalleryId"><img class="anteprime-img" src="../blackWhite/photoBlackWhite/15.jpg"></a></div>
+
+            </div>
+            <a href="#bwGalleryId" class="buttonOpen"> <button class = "buttonOpen" onclick="button('bwId')" >CHIUDI TUTTE LE FOTO </button></a>
+            </div>
+            
+            <!--FOOTER-->
+            <div class="footer">
+                <div class="footerparagrafi">
+                <p> Your Company Name | Via Roma, 24 - 55045 Pietrasana (Lucca) ITALIA | C.F. ABC000000000 | P.Iva 000000000</p>
+                <p><a class="email" href="#"> e-mail:tiziocaio@gmail.com</a></p>
+                <p class="telefono"> telefono: 000000000000 / +39 3333333333333</p>
+                <class="privacy" a href="#"> privacy</a></p>
+                <p class="cookie" a href="#">cookie policy</a></p>
+                </div>
+            </div>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+            <script type="text/javascript" src="./blackWhite.js"></script>
+</body>
+</html>
+
+ 
+
+
+
+
