@@ -111,6 +111,9 @@ body {
 * {
   box-sizing: border-box;
 }
+.h1Contacts {
+  font-size: 1.5rem;
+}
 .contacts {
   padding-top: 4rem;
   font-family: "Courier New", Courier, monospace;
@@ -130,15 +133,15 @@ body {
   font-size: 30px;
   justify-content: center;
 }
-.facebook {
+.socialImgFacebook {
   color: #3b5998;
   margin: 0 1.5rem;
 }
-.instagram {
+.socialImgInstagram {
   color: #dd2a7b;
   margin: 0 1.5rem;
 }
-.mail {
+.socialImgMail {
   color: black;
   margin: 0 1.5rem;
 }
